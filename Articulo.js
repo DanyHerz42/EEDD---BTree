@@ -58,6 +58,6 @@ export default class Articulo {
     this._raiz = newRaiz;
   }
   toString() {
-    return `${this._codigo}, ${this._nombre}, ${this._precio}, ${this._cantidad}, ${this._descripcion}`
+    return `Codigo: ${this._codigo}, Nombre: ${this._nombre}, Precio: ${this._precio}, Cantidad: ${this._cantidad}, Descripcion: ${this._descripcion}`
   }
 }
